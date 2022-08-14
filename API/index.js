@@ -29,7 +29,7 @@ var origin = '*';
 // CORS middleware
 const allowCrossDomain = function(req, res, next) {
   var allowedOrigins = [
-      '18.215.155.45'
+      '3.88.163.210'
   ];
   origin = req.headers.origin;
 
